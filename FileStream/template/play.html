@@ -95,6 +95,40 @@
      <div class="image-container">
      <img src="https://graph.org/file/9802464bfda422f685732.jpg" alt="" title="👀👀"> 
    </div>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    .container {
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50; /* Green */
+      color: white;
+      border: none;
+      cursor: pointer; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome!</h1>
+    <p id="message">Click the button below:</p>
+    <button id="myButton">Change Text</button>
+  </div>
+
+  <script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        document.getElementById("message").innerHTML = "You clicked the button!";
+    });
+  </script>
+</body>
+</html>
      
             </div>
             <div class="abt">
